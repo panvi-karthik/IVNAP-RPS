@@ -562,7 +562,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    background-color:#D0DFFF;
+    background-color:#65adfa;
     padding: 8px 10px 8px 10px;
     border-radius: 60px;
     border-width: 400px;
@@ -730,7 +730,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 15px;
-    background-color:#D0DFFF;
+    background-color:#65adfa;
     padding: 8px 10px 8px 10px;
     border-radius: 60px;
     border-width: 400px;
@@ -938,7 +938,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 13px;
-    background-color:#D0DFFF;
+    background-color:#65adfa;
     padding: 8px 10px 8px 10px;
     border-radius: 60px;
     border-width: 400px;
@@ -1140,7 +1140,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 13px;
-    background-color:#D0DFFF;
+    background-color:#65adfa;
     padding: 20px 30px 20px 30px;
     border-radius: 50px;
     border-width: 400px;
