@@ -32,18 +32,18 @@ for(i=0;i<3;i++)
             if(random===1 && num===1)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
             }
             else if(random===2 && num===2)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 
             }
             else if(random===3 && num===3)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
             }
 
             else if(random===1 && num===2)
@@ -58,7 +58,7 @@ for(i=0;i<3;i++)
             else if(random===1 && num===3)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -66,7 +66,7 @@ for(i=0;i<3;i++)
             else if(random===2 && num===1)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -74,7 +74,7 @@ for(i=0;i<3;i++)
             else if(random===2 && num===3)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -82,7 +82,7 @@ for(i=0;i<3;i++)
             else if(random===3 && num===1)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -90,7 +90,7 @@ for(i=0;i<3;i++)
             else if(random===3 && num===2)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
             }
@@ -123,26 +123,26 @@ for(i=0;i<3;i++)
             if(random===1 && num===1)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 
             }
             else if(random===2 && num===2)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 
             }
             else if(random===3 && num===3)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 
             }
 
             else if(random===1 && num===2)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -150,7 +150,7 @@ for(i=0;i<3;i++)
             else if(random===1 && num===3)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -158,7 +158,7 @@ for(i=0;i<3;i++)
             else if(random===2 && num===1)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -166,7 +166,7 @@ for(i=0;i<3;i++)
             else if(random===2 && num===3)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -174,7 +174,7 @@ for(i=0;i<3;i++)
             else if(random===3 && num===1)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -182,7 +182,7 @@ for(i=0;i<3;i++)
             else if(random===3 && num===2)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -217,26 +217,26 @@ for(i=0;i<3;i++)
             if(random===1 && num===1)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 
             }
             else if(random===2 && num===2)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 
             }
             else if(random===3 && num===3)
             {
                 let result="tie";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 
             }
 
             else if(random===1 && num===2)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -244,7 +244,7 @@ for(i=0;i<3;i++)
             else if(random===1 && num===3)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -252,7 +252,7 @@ for(i=0;i<3;i++)
             else if(random===2 && num===1)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -260,7 +260,7 @@ for(i=0;i<3;i++)
             else if(random===2 && num===3)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -268,7 +268,7 @@ for(i=0;i<3;i++)
             else if(random===3 && num===1)
             {
                 let result="you win";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score+=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -276,7 +276,7 @@ for(i=0;i<3;i++)
             else if(random===3 && num===2)
             {
                 let result="you lost";
-                document.querySelector(".spn").innerHTML=result;
+                document.querySelector(".card1").innerHTML=result;
                 score-=1;
                 document.querySelector(".card-content").innerHTML=score;
                 
@@ -287,11 +287,3 @@ for(i=0;i<3;i++)
 
     });
 }
-
-
-
-
-
-
-
-
